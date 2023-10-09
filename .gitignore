@@ -1,0 +1,12 @@
+/else_files
+/policy paper and supplement
+/paper_images
+./bm25_plot.py
+./*.json
+./*.jsonl
+/code and files/bm25_move_duplicate_result_test.xlsx
+/code and files/bm25_move_duplicate_test.py
+/code and files/bm25_parameter_grid_search.py
+/code and files/iea_cp_cclw_result_test.xlsx
+*/model_save/
+/models/

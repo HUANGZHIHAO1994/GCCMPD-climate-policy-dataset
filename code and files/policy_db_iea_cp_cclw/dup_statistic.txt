@@ -1,0 +1,29 @@
+====================Single Database Dedup: iea_dedup.py cp_dedup.py====================
+
+IEA Raw: 6536
+IEA After iea_dedup.py: 6477
+IEA first dup: 59
+
+Climate Policy Raw: 5207
+Climate Policy After cp_dedup.py: 5202
+Climate Policy first dup: 5
+
+====================Adaptation and Mitigation: contact_three_db.py====================
+
+Climate Policy Number Before Adaptation and Mitigation: 5202
+Climate Policy Adaptation and Mitigation Number: 389
+Climate Policy Mitigation Number: 4602
+Climate Policy Adaptation Number: 72
+Climate Policy Adaptation and Mitigation Unknown Number: 139
+
+LSE Number Before Adaptation and Mitigation: 2503
+LSE Adaptation and Mitigation Number: 553
+LSE Mitigation Number: 1341
+LSE Adaptation Number: 609
+
+IEA Number Before Adaptation and Mitigation: 6477
+IEA Mitigation Number: 6413
+IEA Adaptation Number: 64
+
+All Number Before Manual: 13298
+

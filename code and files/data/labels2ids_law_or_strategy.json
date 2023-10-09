@@ -1,0 +1,14 @@
+{
+    "law or strategy": {
+        "Other Strategy Plan or Target": 0,
+        "Interpretative Communications and Notices": 1,
+        "Preparatory Instruments": 2,
+        "Steering Instruments": 3,
+        "Decree/Order/Ordinance": 4,
+        "Decisional Guidelines, Codes and Frameworks": 5,
+        "Regulation/Directive/Decision": 6,
+        "Informative Instruments": 7,
+        "Decisional Notices and Communications": 8,
+        "Law/Act": 9
+    }
+}

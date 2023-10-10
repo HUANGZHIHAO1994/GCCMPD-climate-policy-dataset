@@ -1,0 +1,74 @@
+,precision,recall,f1-score,support
+Voluntary Actions:Labelling programmes for efficient buildings,0.0,1.0,0.0,0.0
+Regulatory Approaches:Fuel economy performance standards,0.7368421052631579,0.9739130434782609,0.8389513108614232,115.0
+Government Provision of Public Goods or Services:Investment in transit and human powered transport,0.0,1.0,0.0,0.0
+Regulatory Approaches:Forest law to reduce deforestation,0.0,1.0,0.0,0.0
+Tradable Allowances:Fuel and vehicle standards,0.8571428571428571,0.8571428571428571,0.8571428571428571,7.0
+"Government Provision of Public Goods or Services:Protection of national, state, and local forests",1.0,1.0,1.0,57.0
+Subsidies:Fiscal incentives,0.8240740740740741,0.9175257731958762,0.8682926829268293,97.0
+Taxes:Carbon taxes,0.5208333333333334,0.7575757575757576,0.617283950617284,33.0
+Subsidies:Biofuel subsidies,0.0,1.0,0.0,0.0
+Tradable Allowances:Tradable Green Certificates,0.375,1.0,0.5454545454545454,3.0
+Regulatory Approaches:Renewable Portfolio Standards for renewable energy,0.7916666666666666,0.9047619047619048,0.8444444444444444,63.0
+Government Provision of Public Goods or Services:Research and development,0.9567099567099567,0.9629629629629629,0.9598262757871878,459.0
+Regulatory Approaches:Fuel quality standards,0.75,0.5263157894736842,0.6185567010309279,57.0
+Tradable Allowances:Emissions trading,0.7674418604651163,1.0,0.868421052631579,33.0
+"Subsidies:Subsidies or tax exemptions for investment in efficient buildings, retrofits and products",0.5616438356164384,0.7735849056603774,0.6507936507936508,53.0
+Government Provision of Public Goods or Services:Brokerage for industrial cooperation,0.2857142857142857,1.0,0.4444444444444445,4.0
+"Voluntary Actions:Voluntary agreements on energy targets or adoption of energy management systems, or resource efficiency",0.25,1.0,0.4,2.0
+Tradable Allowances:Tradable certificates for energy efficiency improvements (white certificates),0.6666666666666666,0.5714285714285714,0.6153846153846153,7.0
+Taxes:Waste disposal taxes or charges,0.0,1.0,0.0,0.0
+Government Provision of Public Goods or Services:Training and education,0.9927536231884058,0.9647887323943662,0.9785714285714285,142.0
+Regulatory Approaches:Air and water pollution control GHG precursors,1.0,1.0,1.0,75.0
+Tradable Allowances:Emission credits under the Kyoto Protocol's Clean Development Mechanism (CDM),0.0,1.0,0.0,0.0
+Regulatory Approaches:Voluntary agreements (where bound by regulation),0.0,1.0,0.0,0.0
+Information Programmes:Vehicle efficiency labelling,0.8333333333333334,1.0,0.9090909090909091,5.0
+Subsidies:Vehicle purchase subsidies,0.0,1.0,0.0,0.0
+Information Programmes:Brokerage for industrial cooperation,0.0,1.0,0.0,0.0
+Regulatory Approaches:Land-use planning and governance,0.0,1.0,0.0,0.0
+Government Provision of Public Goods or Services:Infrastructure expansion (district heating / cooling or common carrier),0.8990825688073395,0.9607843137254902,0.9289099526066351,102.0
+Regulatory Approaches:Equitable access to electricity grid,0.7777777777777778,1.0,0.8750000000000001,14.0
+Subsidies:Feebates,0.6,1.0,0.7499999999999999,6.0
+Government Provision of Public Goods or Services:Investment in alternative fuel infrastructure,0.8803418803418803,0.9903846153846154,0.9321266968325792,104.0
+"Information Programmes:Information policies to support REDD+ including monitoring, reporting and verification",1.0,1.0,1.0,74.0
+Regulatory Approaches:GHG emission performance standards,0.9952153110047847,0.9497716894977168,0.97196261682243,219.0
+Information Programmes:Benchmarking,0.0,1.0,0.0,0.0
+Regulatory Approaches:Regulatory restrictions to encourage modal shifts (road to rail),0.0,1.0,0.0,0.0
+Tradable Allowances:Compliance schemes outside Kyoto protocol (national schemes),0.0,1.0,0.0,0.0
+Regulatory Approaches:Labelling and public procurement regulations,0.0,1.0,0.0,0.0
+Government Provision of Public Goods or Services:Low emission vehicle procurement,0.9069767441860465,0.975,0.9397590361445783,40.0
+Subsidies:Feed-in-tariffs for renewable energy,0.8162544169611308,0.9956896551724138,0.8970873786407768,232.0
+Subsidies:Subsidized loans,0.926829268292683,0.9382716049382716,0.9325153374233128,81.0
+Regulatory Approaches:Legal status of longterm CO2 storage,0.0,1.0,0.0,0.0
+Subsidies:Capital subsidies and insurance for 1st generation Carbon Dioxide Capture and Storage (CCS),0.25,0.6666666666666666,0.36363636363636365,3.0
+Subsidies:Fossil fuel subsidy removal,0.5,1.0,0.6666666666666666,1.0
+Regulatory Approaches:Efficiency or environmental performance standards,0.9790419161676647,0.9396551724137931,0.9589442815249267,348.0
+Regulatory Approaches:Mandates for energy retailers to assist customers invest in energy efficiency,1.0,0.8571428571428571,0.923076923076923,21.0
+Subsidies:Subsidies,0.0,1.0,0.0,0.0
+Taxes:Fertilizer or Nitrogen taxes to reduce nitrous oxide,0.8,0.7272727272727273,0.761904761904762,11.0
+Regulatory Approaches:Urban planning and zoning restrictions,0.0,1.0,0.0,0.0
+"Subsidies:Credit lines for low carbon agriculture, sustainable forestry",0.9,1.0,0.9473684210526316,9.0
+Voluntary Actions:Product eco-labelling,0.0,1.0,0.0,0.0
+Information Programmes:Labelling programmes,0.9961977186311787,0.9961977186311787,0.9961977186311787,263.0
+Taxes:Carbon and/or energy taxes,0.55,0.7333333333333333,0.6285714285714286,15.0
+"Regulatory Approaches:National policies to support REDD+ including monitoring, reporting and verification",0.0,1.0,0.0,0.0
+Regulatory Approaches:Equipment and appliance standards,0.9843444227005871,0.9940711462450593,0.9891838741396264,506.0
+Taxes:Vehicle taxes,0.0,1.0,0.0,0.0
+Information Programmes:Energy advice programmes,0.9699248120300752,0.9347826086956522,0.952029520295203,138.0
+Regulatory Approaches:Restriction on use of vehicles in certain areas,0.0,1.0,0.0,0.0
+Information Programmes:Energy audits,0.9800884955752213,0.9526881720430107,0.9661941112322792,465.0
+Regulatory Approaches:Building codes and standards,0.9587378640776699,0.8816964285714286,0.9186046511627908,448.0
+"Taxes:Congestion charges, vehicle registration fees, road tolls",0.0,1.0,0.0,0.0
+Government Provision of Public Goods or Services:Investment in improvement and diffusion of innovative technologies in agriculture and forestry,1.0,1.0,1.0,204.0
+Tradable Allowances:Emission credits under CDM,0.3333333333333333,0.5,0.4,2.0
+Information Programmes:Certification schemes for sustainable forest practices,0.0,1.0,0.0,0.0
+Regulatory Approaches:Energy management systems,0.5555555555555556,1.0,0.7142857142857143,5.0
+Government Provision of Public Goods or Services:Public procurement of efficient buildings and appliances,0.9696969696969697,0.8888888888888888,0.927536231884058,72.0
+Taxes:Carbon tax or energy tax,0.8333333333333334,0.7575757575757576,0.7936507936507938,33.0
+Regulatory Approaches:Energy efficiency standards for equipment,0.967391304347826,0.8668831168831169,0.9143835616438356,308.0
+Information Programmes:Fuel labelling,0.9856115107913669,0.9448275862068966,0.9647887323943661,145.0
+Taxes:Fuel taxes,0.6626506024096386,0.9166666666666666,0.7692307692307692,60.0
+micro avg,0.8846013167520117,0.9408675354989302,0.911867282495994,5141.0
+macro avg,0.5238870783216864,0.9359166815076836,0.5478300639512573,5141.0
+weighted avg,0.9341349246085598,0.9408675354989302,0.9345945315444746,5141.0
+samples avg,0.9557844993362441,0.9812575847691828,0.9451872554707605,5141.0

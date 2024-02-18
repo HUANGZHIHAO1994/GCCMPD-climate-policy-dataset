@@ -16,7 +16,7 @@ def get_data():
 def data_process(data):
     new_df = data.copy()
     jurisdiction_map = {"City/Municipal": "SubNational", "State/Provincial": "SubNational",
-                        "Regional": "Subnational region", "Subnational region": "Subnational region",
+                        "Regional": "Subnational area", "Subnational region": "SubNational",
                         "City": "SubNational", "Country": "National", "National": "National",
                         "Supranational region": "International", "International": "International", "Other": "Unknown"}
     new_df["Jurisdiction"].fillna("Unknown", inplace=True)

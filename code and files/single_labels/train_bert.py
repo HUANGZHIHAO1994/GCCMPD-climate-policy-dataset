@@ -32,6 +32,9 @@ def load_label2id(args):
     if args.attribution == "law or strategy":
         with open(os.path.join(args.data_dir, 'labels2ids_law_or_strategy.json'), 'r', encoding='utf8') as file:
             labels2ids = json.load(file)
+    elif args.attribution == "Jurisdiction_standard_amend":
+        with open(os.path.join(args.data_dir, 'labels2ids_jurisdiction.json'), 'r', encoding='utf8') as file:
+            labels2ids = json.load(file)
     else:
         with open(os.path.join(args.data_dir, 'labels2ids.json'), 'r', encoding='utf8') as file:
             labels2ids = json.load(file)
@@ -93,6 +96,14 @@ def train(args):
         train_loader = DataLoader(MyDataset(trainset), batch_size=args.batch_size, shuffle=True, collate_fn=lambda x: x)
 
         testset = read_jsonl(args, os.path.join(args.data_dir, 'test_law_or_strategy.jsonl'), label2id)
+        test_loader = DataLoader(MyDataset(testset), batch_size=args.eval_batch_size, shuffle=False,
+                                 collate_fn=lambda x: x)
+    elif args.attribution == "Jurisdiction_standard_amend":
+        trainset = read_jsonl(args, os.path.join(args.data_dir, 'train_jurisdiction.jsonl'), label2id)
+        train_loader = DataLoader(MyDataset(trainset), batch_size=args.batch_size, shuffle=True,
+                                  collate_fn=lambda x: x)
+
+        testset = read_jsonl(args, os.path.join(args.data_dir, 'test_jurisdiction.jsonl'), label2id)
         test_loader = DataLoader(MyDataset(testset), batch_size=args.eval_batch_size, shuffle=False,
                                  collate_fn=lambda x: x)
     else:
@@ -189,6 +200,10 @@ def test(args):
     # 加载数据
     if args.attribution == "law or strategy":
         testset = read_jsonl(args, os.path.join(args.data_dir, 'test_law_or_strategy.jsonl'), label2id)
+        test_loader = DataLoader(MyDataset(testset), batch_size=args.eval_batch_size, shuffle=False,
+                                 collate_fn=lambda x: x)
+    elif args.attribution == "Jurisdiction_standard_amend":
+        testset = read_jsonl(args, os.path.join(args.data_dir, 'test_jurisdiction.jsonl'), label2id)
         test_loader = DataLoader(MyDataset(testset), batch_size=args.eval_batch_size, shuffle=False,
                                  collate_fn=lambda x: x)
     else:

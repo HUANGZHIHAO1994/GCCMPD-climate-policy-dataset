@@ -17,6 +17,9 @@ def load_label2id(args):
     if args.attribution == "law or strategy":
         with open(os.path.join(args.data_dir, 'labels2ids_law_or_strategy.json'), 'r', encoding='utf8') as file:
             labels2ids = json.load(file)
+    elif args.attribution == "Jurisdiction_standard_amend":
+        with open(os.path.join(args.data_dir, 'labels2ids_jurisdiction.json'), 'r', encoding='utf8') as file:
+            labels2ids = json.load(file)
     else:
         with open(os.path.join(args.data_dir, 'labels2ids.json'), 'r', encoding='utf8') as file:
             labels2ids = json.load(file)
@@ -47,6 +50,8 @@ def train(args):
 
     if args.attribution == "law or strategy":
         trainset = read_jsonl(args, os.path.join(args.data_dir, 'train_law_or_strategy.jsonl'), label2id)
+    elif args.attribution == "Jurisdiction_standard_amend":
+        trainset = read_jsonl(args, os.path.join(args.data_dir, 'train_jurisdiction.jsonl'), label2id)
     else:
         trainset = read_jsonl(args, os.path.join(args.data_dir, 'train.jsonl'), label2id)
 
@@ -91,6 +96,8 @@ def test(args):
 
     if args.attribution == "law or strategy":
         testset = read_jsonl(args, os.path.join(args.data_dir, 'test_law_or_strategy.jsonl'), label2id)
+    elif args.attribution == "Jurisdiction_standard_amend":
+        testset = read_jsonl(args, os.path.join(args.data_dir, 'test_jurisdiction.jsonl'), label2id)
     else:
         testset = read_jsonl(args, os.path.join(args.data_dir, 'test.jsonl'), label2id)
     # testset = read_jsonl(args, os.path.join(args.data_dir, 'test.jsonl'), label2id)
